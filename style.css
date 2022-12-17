@@ -23,7 +23,8 @@ body {
 }
 
 #book {
-  background-color: black;
+  height: 90%;
+  width: 100%;
   overflow: hidden;
 }
 
