@@ -2,8 +2,8 @@
 const PageFlip = require("page-flip").PageFlip;
 
 const pageFlip = new PageFlip(document.getElementById("book"), {
-  width: 600,
-  height: 900,
+  width: 400,
+  height: 600,
   size: "fixed",
 });
 
