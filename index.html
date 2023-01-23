@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <title>Laura's Submissions</title>
   </head>
   <body>
-    <div class="container">
-      <div id="book">
-        <div class="page front-cover" data-density="hard">Page Cover</div>
-        <div class="page">Page one</div>
-        <div class="page">Page two</div>
-        <div class="page">Page three</div>
-        <div class="page">Page four</div>
-        <div class="page back-cover" data-density="hard">Last page</div>
-      </div>
-    </div>
+    <main class="container">
+      <section id="book">
+        <article class="page cover"></article>
+        <article class="page">
+          <div id="first-page">
+            <img src="assets/front.gif" alt="Front cover" />
+          </div>
+        </article>
+        <article class="page"></article>
+        <article class="page"></article>
+        <article class="page"></article>
+        <article class="page cover"></article>
+      </section>
+    </main>
   </body>
   <script src="bundle.js"></script>
-  <script>
-    console.log("version 1.1");
-  </script>
+  <script src="elements.js"></script>
 </html>
